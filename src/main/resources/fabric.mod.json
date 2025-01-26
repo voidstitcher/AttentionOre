@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "attentionore",
+  "version": "${version}",
+
+  "name": "Attention Ore",
+  "description": "This mod attempts to make redstone ore redirect redstone, similar to the target block in modern minecraft.",
+  "authors": [
+    "voidstitcher"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+	"icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"voidstitcher.attentionore.AttentionOre"
+    ],
+		"beforeGameStart": [
+			"voidstitcher.attentionore.AttentionOre"
+		],
+		"afterGameStart": [
+			"voidstitcher.attentionore.AttentionOre"
+		],
+		"recipesReady": [
+			"voidstitcher.attentionore.AttentionOre"
+		]
+	},
+  "mixins": [
+      "attentionore.mixins.json"
+  ],
+
+  "depends": {
+		"minecraft": "*",
+    "fabricloader": ">=0.15.5"
+  },
+  "suggests": {
+  }
+}
