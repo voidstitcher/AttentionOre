@@ -6,11 +6,12 @@
   "name": "Attention Ore",
   "description": "This mod attempts to make redstone ore redirect redstone, similar to the target block in modern minecraft.",
   "authors": [
-    "voidstitcher"
+    "voidstitcher",
+		"BlueMoonJune"
   ],
-  "contact": {
-    "homepage": "",
-    "sources": ""
+	"contact": {
+		"homepage": "",
+		"sources": ""
   },
 
 	"icon": "icon.png",

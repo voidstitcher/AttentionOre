@@ -12,7 +12,7 @@ public class AttentionOre implements ModInitializer, RecipeEntrypoint, GameStart
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     @Override
     public void onInitialize() {
-        LOGGER.info("ExampleMod initialized.");
+        LOGGER.info("Attention Ore initialized.");
     }
 
 	@Override
